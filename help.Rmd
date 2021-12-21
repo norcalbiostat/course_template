@@ -1,0 +1,148 @@
+---
+title: "Getting Help"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+    theme: sandstone
+---
+
+<img  class="circle" src="so-help-much-wow.jpg" width="200px" 
+      alt="Picture of help doge" 
+      title = "So help much wow"/>
+    
+---
+
+# Class Logistics
+
+## Syllabus 
+Linked in the top right of the navigation bar on this website. 
+
+## Anonymous feedback
+I want to make this class a welcome learning opportunity for everyone. I welcome your comments and constructive critique. What I do not welcome is flaming, trolling or insults. Here are some examples of appropriate uses of this feedback form. 
+
+1) Class activities. What should I start doing, stop doing, and keep doing? Is the pace too fast? To slow?
+2) Topics: Is there something specific you would like brought up in class, but don't want to be the one to bring it up?
+3) Flagging the Misfires. I am bound to make mistakes and microaggressions regarding culture, religion, gender, and diversity. Helping you feel safe is a real-time pursuit. If my remarks created discomfort, you can use this form to voice the concern quickly rather than saving it for the course evaluation months later.
+4) Words of Encouragement. I need positive feedback to keep me recharged!
+
+
+<a href="https://forms.gle/3fDxXERgWdVq832E9"><button type="button">Anonymous Feedback Form</button> </a>
+
+
+## Student Hours
+This is when you can come talk to me about the course material, the subject in general, or life. These are my hours that I dedicate specifically to helping you. 
+
+The hours for each term are decided as a group during week 1. 
+
+----
+
+# Class Materials
+
+## Course Webpage
+This course webpage contains all materials used in this class. Bookmark this page, you will be here a lot.  
+
+* **HOME**. This shows the weekly announcements and updates. 
+* **Weekly Schedule page**. This page shows a summary of the week-by week content in a table format, with links to the weekly materials (Topic), any homework or lab assignments, links to quizzes, and which course objectives will be addressed that week. This is the first place you can go for due dates.  
+* **Textbook** Link to the textbook for this class. 
+* **Syllabus**. A very important document that contains all the policies and procedures for this class. 
+* **Help**. The question mark links to this help page. This page attempts to provide answers to commonly asked questions. 
+* **Dr. D's Website** This drop down menu contains links to my personal webpage, my Github and Twitter accounts, and a link to my schedule so you can find a time to meet with me as you need. 
+
+## R & R Studio
+In effort to not duplicate content (and so I only have one place to update), please see the Math 130 Introduction to R Help page: 
+https://norcalbiostat.github.io/MATH130/faq.html
+
+
+
+## Slack
+
+Slack is a channel-based messaging platform very similar to Discord. Slack > Discord primarily because of threaded conversations. This is a crucial piece for classroom discussion. Yes I know Discord > Slack for many other reasons that I won't get into here. If/When Discord implements threads, I will likely convert. 
+
+* **How to Join our Slack workspace.** An invite will be sent to your campus email. 
+* **Use the Desktop app*** You must download and install Desktop app. 
+    - The web version requires on you remembering to login to check messages and see replies. This is not reliable and not allowed. 
+    - There is a phone app is technically optional, but really really helpful/handy. Students historically have stated it's much easier to work with.
+* **How to use Slack**: Useful tutorials on how to navigate in Slack such as finding and start conversations can be found at https://slack.com/resources/slack-101 
+
+
+## Community Coding
+-   The [Data Science Initiative](https://www.csuchico.edu/datascience/) offers year-round training workshops and seminars on data-science related topics including R.
+-   [Community Coding](https://www.csuchico.edu/datascience/community-coding.shtml) (CC): Students, staff, faculty, and the public are invited to join the Community Coding sessions. Bring your computer, coding projects, and your questions to this open working environment. Think of CC as additional office hours where you have access to more teachers than just me.
+</details>
+
+
+## Zoom
+
+Occasionally class or student hours will be held via Zoom. 
+
+* The link to our zoom room will be posted in Slack. 
+* See [these tutorials](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-Video-Tutorials) to get help with scheduling or joining a meeting. 
+* Zoom is also integrated into our Slack workspace. This makes for a great and easy way to connect with your classmates remotely. You can share and join meetings, or directly call individuals within the Slack environment. [See here for how to use Zoom inside Slack](https://support.zoom.us/hc/en-us/articles/205153325-Using-Slack-with-Zoom)
+* All classes that are held on Zoom will be live captioned using Otter.ai and posted online  (Location TBD) 
+
+## Quizzes
+
+Quizzes are a great way to test yourself, enhance recall, and self-assess your comprehension of the subject. Quizzes are administered in Google Forms, and done in two parts.
+
+1. **Individual**: First try to answer as many questions without looking at your notes. Then use your notes to answer the rest. 
+
+2. **Group**: After the individual quiz closes I will choose 1-4 questions that the class as a whole seemed to struggle with the most. The next class period we will do a class-wide discussion of those topics, then you will work in groups to redo the selected questions. 
+
+Points earned from the group quiz get added to your individual quiz score (not to exceed total points). 
+
+## Exam Error Assessment
+
+Instructions to be added closer to Exam 1. 
+
+----
+
+# Life {.life}
+
+This is not an all encompassing list. If there is something not listed that you think should be, please let me know!
+
+## Basic Needs
+
+The **Hungry Wildcat Food Pantry** provides supplemental food, fresh produce, CalFresh application assistance and basic needs referral services for students experiencing food and housing insecurity.
+
+All students are welcomed to visit the Pantry located in the Student Service Center 196. Check the website for current hours. 
+
+Please visit the Chico State Basic Needs website http://www.csuchico.edu/basic-needs for more information.
+
+## Celebrating Diversity 
+The [Diversity resources for students](https://www.csuchico.edu/diversity/students/index.shtml) webpage has a lot of information on clubs, organizations, resources and opportunities available to our wonderful body of non-[white/cis/hetero/able] students. 
+
+## Accomodations
+
+If you need course adaptations or accommodations because of a disability or chronic illness,  or if you need to make special arrangements in case the building must be evacuated, please make an appointment with me as soon as possible, or see me during office hours. Please also contact [Accessibility Resource Center](https://www.csuchico.edu/arc/) (ARC) as they are the designated department responsible for approving and coordinating reasonable accommodations and services for students with disabilities. ARC will help you understand your rights and responsibilities under the Americans with Disabilities Act and provide you further assistance with requesting and arranging accommodations.
+
+## Technology
+
+-   [IT Support Services](https://www.csuchico.edu/itss/) will provide comprehensive technology support, including laptop loans and virtual technology assistance.
+-   The [Office of Accessible Technology Services](https://www.csuchico.edu/oats/) will offer all students online access to a staff member during normal business hours Monday--Friday via email at [oats@csuchico.edu](mailto:oats@csuchico.edu). Students with questions on inclusive technology or who need assistance setting up technology accommodations are encouraged to reach out.
+-   If you do not have off-campus access to the Internet, [resources are available](https://www.csuchico.edu/coronavirus/internet.shtml).
+
+## Tutoring
+
+The [Student Learning Center](https://www.csuchico.edu/slc/) will provide all learning support services online. Students can schedule appointments on the Center's website. The [Supplemental Instruction](https://www.csuchico.edu/slc/si.shtml) program will also be available virtually, utilizing peer-assisted study sessions to increase student success in historically difficult courses. Student leaders are faculty-recommended and trained to facilitate group sessions. Math tutoring is available via Zoom from the [Math Learning Lab](https://www.csuchico.edu/math/students/learning-lab.shtml).
+
+## Financial Aid
+
+[Financial Aid & Scholarship Office](https://www.csuchico.edu/fa/) is providing financial aid assistance virtually. Contact finaid@csuchico.edu or call 530-898-6451 and to set up an appointment by phone or Zoom.
+
+## Health Center
+The [WellCat Health Center](https://www.csuchico.edu/healthcenter) is available by appointment for regular healthcare services. Visit their website for current hours and appointment times.
+
+### Covid-19 news and information
+It's super important to stay informed about what is going on. This is a horrible once in a lifetime (hopefully) GLOBAL pandemic, and the whole world is suffering. [Campus information can be found here](https://www.csuchico.edu/coronavirus/index.shtml), and here is a link to the Butte County [Covid tracking dashboard](https://infogram.com/1pe66wmyjnmvkrhm66x9362kp3al60r57ex?live).  
+
+
+## Mental Health
+Online counseling is available through the [WellCat Counseling Center](https://www.csuchico.edu/counseling/) and [Safe Place](https://www.csuchico.edu/safeplace/). Find specific information on their websites.
+
+## Career Center
+
+The [Career Center](https://www.csuchico.edu/careers/) remains virtual only, but will continue providing a wide variety of career development programs for students of all majors and class levels, and for all alumni. It also offers services to help students with the transition from student to working professional.
+
+

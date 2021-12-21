@@ -1,0 +1,77 @@
+---
+title: Math XXX Homepage
+---
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+wk1.date <- as.Date("2021-08-23") 
+```
+
+This is the course website for <span style="color:#6f1d1b">**MATH XXX - Name**</span> course taught by [Dr. Robin Donatello](www.norcalbiostat.com) in Fall 2021 at California State University, Chico. This landing page is used for posting of regular announcements and information for students of the class.
+
+----
+
+## `r format(wk1.date+7*16, "%m-%d-%Y")` Finals week. 
+
+----
+
+## `r format(wk1.date+7*15, "%m-%d-%Y")` Week 16: 
+
+----
+
+## `r format(wk1.date+7*14, "%m-%d-%Y")` Week 15: 
+
+----
+
+## `r format(wk1.date+7*13, "%m-%d-%Y")` Week 14: 
+
+----
+
+## `r format(wk1.date+7*12, "%m-%d-%Y")` Week 13: 
+
+----
+
+## `r format(wk1.date+7*11, "%m-%d-%Y")` Week 12: 
+
+----
+
+## `r format(wk1.date+7*10, "%m-%d-%Y")` Week 11: 
+
+----
+
+## `r format(wk1.date+7*9, "%m-%d-%Y")` Week 10: 
+
+----
+
+## `r format(wk1.date+7*8, "%m-%d-%Y")` Week 9: 
+
+----
+
+## `r format(wk1.date+7*7, "%m-%d-%Y")` Week 8: 
+
+----
+
+## `r format(wk1.date+6*7, "%m-%d-%Y")` Week 7: 
+
+----
+
+## `r format(wk1.date+5*7, "%m-%d-%Y")` Week 6: 
+
+----
+
+## `r format(wk1.date+4*7, "%m-%d-%Y")` Week 5:
+
+----
+
+## `r format(wk1.date+3*7, "%m-%d-%Y")` Week 4:
+
+----
+
+## `r format(wk1.date+2*7, "%m-%d-%Y")` Week 3: 
+
+----
+
+## `r format(wk1.date+7, "%m-%d-%Y")` Week 2: 
+
+----
+
+## `r format(wk1.date, "%m-%d-%Y")` Week 1: Welcome to <Term>!

@@ -1,0 +1,26 @@
+name: Math XXX
+output_dir: '.'
+navbar:
+  title: Home
+  left:
+  - text: Schedule
+    href: schedule.html
+  - text: Textbook
+    href: 
+  
+  right:
+  - text: Help
+    href: help.html
+  - text: Syllabus
+    href: syllabus.html
+  - text: Dr. D's Website
+    icon: fa-paw
+    href: http://www.norcalbiostat.com/
+    
+output:
+  html_document:
+    theme: sandstone
+    highlight: tango
+    css: style.css
+
+

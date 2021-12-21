@@ -1,0 +1,632 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Syllabus MATH XXX - Term},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{Syllabus MATH XXX - Term}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\emph{Last updated: Tue Dec 21 2021 10:40:35 AM}
+
+\hypertarget{course-information}{%
+\section{Course Information}\label{course-information}}
+
+\hypertarget{logistics}{%
+\subsection{Logistics}\label{logistics}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Instructor:} Dr.~Robin Donatello (Dr.~D, she/her)
+\item
+  \textbf{Office Location:} Holt 202
+\item
+  \textbf{Telephone:} 898-5767
+\item
+  \textbf{E-mail:}
+  \href{mailto:rdonatello@csuchico.edu}{\nolinkurl{rdonatello@csuchico.edu}}
+\item
+  \textbf{Meeting Pattern:}
+\item
+  \textbf{Prerequisites:}
+\item
+  \textbf{Course Website:}
+\item
+  \textbf{Textbook:}
+\item
+  \textbf{Slack Channel}
+\item
+  \textbf{Student help hours}:
+\item
+  \textbf{Community Coding}: Lots of open student help hours open to any
+  student. Hours, location and zoom link at
+  \url{https://www.csuchico.edu/datascience/community-coding.shtml}
+\item
+  \textbf{Best Contact Method:}
+\end{itemize}
+
+\hypertarget{description}{%
+\subsection{Description}\label{description}}
+
+\hypertarget{co}{%
+\section{What are we going to learn? (Course Learning
+Outcomes)}\label{co}}
+
+By the end of the course, students will be able to\ldots{}
+
+\hypertarget{who-are-we-learning-it-with-about-the-instructor}{%
+\section{Who are we learning it with? (About the
+instructor)}\label{who-are-we-learning-it-with-about-the-instructor}}
+
+My name is Robin Donatello and my pronouns are she/her. You can address
+me as ``Robin'', ``Dr.~D'', or some other respectful title such as
+``professor''.
+
+I have a Doctorate in Public Health (DrPH) Biostatistics from UCLA, but
+I'm a Chico alum. I double majored in Statistics \& Biology, with minor
+in Chemistry, and a first generation college student who started at
+Butte College.
+
+My campus life consists of training the next generation of Scientists
+how to harness the power of Statistics and Data in a responsible and
+ethical manner, supporting students in their academic adventures through
+intensive advising and research, leading the Data Science Initiative
+(DSI) to develop Data Science capacity on our campus, and providing
+analytical support and statistical consulting for many projects on and
+off campus.
+
+When I'm not on campus, typically I'm growing 🥕🌾🍅🍆🍏 for my family, out
+adventuring with my 🐶🧔🐩, or getting some 🎮🎲📚 time in.
+
+You can learn more about the work that I do on my
+\href{http://www.norcalbiostat.com/}{website}
+
+\hypertarget{how-are-we-gonna-learn-it-required-materials}{%
+\section{How are we gonna learn it? (Required
+materials)}\label{how-are-we-gonna-learn-it-required-materials}}
+
+\begin{quote}
+Edit this as needed
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Course Website:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {\textbf{Bookmark this page.}} Everything is here - Schedule,
+    syllabus, videos, notes, readings, assignments etc.
+  \end{itemize}
+\item
+  \textbf{Course Packet (Required, \textless\$20):} Available from Chico
+  Packet Pro. These are ``fill in the blank'' lecture style notes that
+  you will write in during class. This is required, and the only thing
+  you get on an exam.
+\item
+  \textbf{Computer:} A reliable laptop, chromebook, or tablet
+  \textbf{with a keyboard} that can use a browser to access the
+  internet. If you do not have a laptop that you can bring to class let
+  your instructor know. Loaner laptops may be available.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Reliable internet connection while on and off campus. Let me know
+    ASAP if this provides a challenge for you.
+  \end{itemize}
+\item
+  \textbf{R and R Studio:} Free software programs used on a near daily
+  basis. See class setup assignment for download and installation
+  instructions.
+\item
+  \textbf{Required Textbook}
+\item
+  \textbf{Blackboard Learn:} Grades
+\item
+  \textbf{\href{https://www.gradescope.com/}{Gradescope}:} This is where
+  you will turn in your assignments. Enrollment code \texttt{code}
+\item
+  \textbf{Slack:} A free discussion platform with a lot of collaborative
+  functionality. This is the defacto method of communication for the
+  class. Emails get lost and forgotten in the mire. Why not Discord? We
+  can chat about that.
+\end{itemize}
+
+\hypertarget{how-is-learning-measured-what-are-you-graded-on}{%
+\section{How is learning measured? (What are you graded
+on?)}\label{how-is-learning-measured-what-are-you-graded-on}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Learning} (\textasciitilde XX\% of grade):
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Class Discussion: In class time will be spent answering questions,
+    discussing topics in further detail, or engaging in a learning
+    activity.
+  \item
+    Lesson notes: After each chapter your course packet will be checked
+    off for completion.
+  \item
+    Getting Help: You must visit me at least once during student office
+    hours, and attend community coding
+  \end{enumerate}
+\item
+  \textbf{Practice} (\textasciitilde XX\% of grade): Assignments are
+  submitted to Gradescope as a PDF.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Your lowest score will be dropped at the end of the semester.
+  \end{itemize}
+\item
+  \textbf{Assessment} (\textasciitilde XX\% of grade):
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \item
+    \textbf{Regular quizzes (\textasciitilde XX\%)} administered online
+    through Google Forms are used to assess your learning and to help me
+    see what topics need clarification. Expect about 14.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Prior to class you will self-assess your learning by taking the
+      Individual quiz on your own. All questions except text responses
+      are automatically graded.
+    \item
+      In the following class you work with a group to clarify and
+      discuss commonly missed questions and take a second, group quiz.
+    \item
+      Your personal score is your individual quiz + group quiz scores.
+    \item
+      Lowest 2 quiz scores will be dropped.
+    \end{itemize}
+  \item
+    \textbf{X Exams (\textasciitilde XX\%)}:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Exam error assessment available for Exam 1 and 2.
+      \emph{Instructions will be added here closer to Exam 1.}
+    \end{itemize}
+  \end{enumerate}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{class-policies-and-statements}{%
+\section{Class Policies and
+statements}\label{class-policies-and-statements}}
+
+\hypertarget{everyone-is-welcome-here}{%
+\subsection{Everyone is welcome here}\label{everyone-is-welcome-here}}
+
+It is my intent that students from all diverse backgrounds and
+perspectives be well-served by this course, that students' learning
+needs be addressed both in and out of class, and that the diversity that
+the students bring to this class be viewed as a resource, strength and
+benefit. It is my intent to present materials and activities that are
+respectful of diversity: gender identity, sexuality, disability, age,
+socioeconomic status, ethnicity, race, nationality, religion, and
+culture. Your suggestions are encouraged and appreciated. Please let me
+know ways to improve the effectiveness of the course for you personally,
+or for other students or student groups.
+
+I would like to create a learning environment that supports a diversity
+of thoughts, perspectives and experiences, and honors your identities
+(including race, gender, class, sexuality, religion, ability, etc.) To
+help accomplish this:
+
+\begin{itemize}
+\tightlist
+\item
+  Let me know if you have a name and/or set of pronouns that differ from
+  those that appear in your official Chico records. I make it a point to
+  call on people by name, so please make sure that I know what you want
+  to be called. - I also want to try to pronounce your name as
+  accurately as possible. The more you help and correct me the better I
+  can do to honor your name.
+\item
+  If you feel like your performance in the class is being impacted by
+  your experiences outside of class, please don't hesitate to come and
+  talk with me. I want to be a resource for you. Remember that you can
+  also submit anonymous feedback using the feedback button on the
+  schedule and help pages of the website (which will lead to me making a
+  general announcement to the class, if necessary to address your
+  concerns).
+\item
+  If you prefer to speak with someone outside of the course, the Office
+  of Diversity and Inclusion is here to assist. Their number is
+  530-898-4764, and email
+  \href{mailto:diversityoffice@csuchico.edu}{\nolinkurl{diversityoffice@csuchico.edu}}
+\item
+  I (like many people) am still in the process of learning about diverse
+  perspectives and identities. If something was said in class (by
+  anyone) that made you feel uncomfortable, please talk to me about it.
+  (Again, anonymous feedback is always an option).
+\end{itemize}
+
+\emph{Adapted from
+\href{https://www.brown.edu/sheridan/teaching-learning-resources/inclusive-teaching/statements}{Monica
+Linden at Brown University}}.
+
+Furthermore, I would like to acknowledge that Chico State stands on
+lands that were originally occupied by the first people of this area,
+the Mechoopda. I recognize their distinctive spiritual relationship with
+this land and the waters that run through campus. I am humbled that our
+campus resides upon sacred lands that once sustained the Mechoopda
+people for centuries.
+
+\hypertarget{attendance}{%
+\subsection{Attendance}\label{attendance}}
+
+Class attendance is expected regardless if we are in person or online.
+Talk to me ahead of time if you need to miss a class for a planned
+reason. In the event of an unplanned reason, ping me in Slack when you
+can so that I know you are still alive.
+
+\begin{itemize}
+\tightlist
+\item
+  If you are not feeling well or are showing Covid symptoms
+  \textbf{.red\{DO NOT COME TO CLASS\}}. Ping me in Slack and we'll
+  figure out a return plan.
+\item
+  I will be taking daily attendance - this is more for my learning of
+  names and to keep an eye out for students who may be struggling in
+  class and deciding not to show up.
+\end{itemize}
+
+\hypertarget{zoom-eqituette}{%
+\subsection{Zoom Eqituette}\label{zoom-eqituette}}
+
+Sometimes class or student office hours will be held over Zoom. When we
+meet online please attend to the following
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Location}: I don't really care where you're at, as long as
+  you're not lying down and falling asleep.
+\item
+  \textbf{Camera}: I want your cameras on. I acknowledge that
+  personal/bandwidth limitations do exist and there may be times where
+  you need to turn off the camera. I accept those times, but I need to
+  see your face as much as possible during our shared experience.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is not a policing tactic, this is to foster connections and
+    feel like a community.
+  \item
+    There are always mitigating circumstances and exceptions. Please
+    talk to me if a camera will be a problem.
+  \end{itemize}
+\item
+  \textbf{Microphone}: Keep yourself muted unless sharing out as a way
+  to keep background noise to a minimum.
+\item
+  \textbf{Recording}: As long as I remember to hit record, each
+  synchronous online session will be recorded, auto-transcribed and
+  posted in Blackboard so it's locked to the class.
+\item
+  \textbf{Food/drink}: No problem. Just chew with your mouth closed!
+\item
+  \textbf{Kids/Pets}: Yes please! Pet visits are especially encouraged,
+  but we must get introductions.
+\item
+  \textbf{Filters}: No filters please unless it's pre-arranged (by me).
+  \href{https://www.youtube.com/watch?v=lGOofzZOyl8}{We know you are not
+  a cat.}
+\end{itemize}
+
+\hypertarget{collaboration}{%
+\subsection{Collaboration}\label{collaboration}}
+
+Collaboration on assignments is encouraged. People learn better when
+they have someone else to talk through concepts with. Collaboration on
+individual quizzes is not allowed.
+
+According to
+\href{https://www.csuchico.edu/scrr/_assets/documents/collaboration.pdf}{this
+document about ollaboration} linked on the CSU, Chico website:
+
+\begin{quote}
+Collaboration is working with another or receiving assistance from
+someone (e.g., a classmate, friend, or parent, whether in person or by
+electronic media) to complete coursework for a grade. ``Unauthorized
+collaboration'' means working with others without the specific
+permission of the instructor on assignments that will be submitted for a
+grade. (i.e.~in class or take home tests, quizzes, labs and homework)
+\end{quote}
+
+Below are two quotes from
+\href{https://revoteaching.blogspot.com/2021/04/ungrading-and-academic-integrity.html}{this
+article} that resonated with me. We will specifically talk about the
+idea of why students cheat in the first few weeks as a class.
+
+\begin{quote}
+``In my opinion students cheat for one of three reasons (or some
+combination): students don't see the value in doing the work, or they
+don't believe they can achieve that value if they do the work required
+of them, or they don't know how to complete the work. Students cheat
+because they see the work as busy work, work that has no value. My
+students aren't lazy. They have jobs in addition to school, they have
+family obligations, they have financial concerns that sometimes include
+housing and food insecurity. They also binge watch entertainment and
+play video games for hours on end. They have the ability to pay
+attention when their circumstances and their interests allow it.''
+
+``The solution to cheating is to address the motivation to cheat, not
+the consequences of cheating. Why would students cheat if they believed
+in the value (benefit) of the work, believed the work would produce the
+benefit, and believed they could complete the work? Our job as faculty
+is convince students of the first two ideas and help them with the
+third. And then we trust students to act in their own self-interest.''
+\end{quote}
+
+\hypertarget{grading}{%
+\subsection{Grading}\label{grading}}
+
+\begin{itemize}
+\tightlist
+\item
+  Your grade will be displayed as a running total in Blackboard Learn. I
+  will try to enter grades at least every two weeks.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This will not account for dropped quizzes or assignments.
+  \end{itemize}
+\item
+  I use a standard grade cutoff of 100-90\%: A, 89-80\%: B, 79-70\%: C,
+  69-60\%: D, 0-59\%: F
+\item
+  Plusses and minuses will be as displayed on Blackboard Learn.
+\item
+  I reserve the right to round up if borderline (i.e.~89.6\% to a 90\%)
+  based on in-class attitude and general engagement in the class. I will
+  not round very heavily, don't ask.
+\item
+  I only give extra credit when something comes up that is relevant to
+  the class that I think is really important for you to consider
+  attending, but that is outside the existing coursework. Don't ask.
+\end{itemize}
+
+\hypertarget{late-work}{%
+\subsection{Late work}\label{late-work}}
+
+Timeliness of assignment submissions are built into the rubric. I will
+strive to grade assignments within 1 week of the submission date, of
+course prioritizing grading quicker closer to exams. Assignments
+submitted after I have finished grading the rest of the class and
+re-submissions are graded on a ``when I have time'' basis.
+
+Super late homework will still be accepted after the Gradescope window
+has closed and the solutions posted. This work will only be graded for
+completeness, and only if your work is not a copy of the solutions.
+
+Quizzes are due at midnight. Will I always be awake laboring over
+grading your assignments into the wee hours of the morning and remember
+to turn off accepting responses at 12? Probably not, but I'd say it's
+likely often enough that I wouldn't chance it if I were you.
+
+\hypertarget{campus-resources}{%
+\section{Campus Resources}\label{campus-resources}}
+
+This \href{https://www.csuchico.edu/coronavirus/students.shtml}{campus
+website} contains a lot of information and resources specific to our
+COVID-19 situation. Specifically this page contains links to resources
+to help you keep
+\href{https://www.csuchico.edu/keep-learning/index.shtml}{learning}, and
+\href{https://www.csuchico.edu/keep-engaging/index.shtml}{engaging}, and
+lots of links to student support services such as emergency grants,
+basic need such as healthy food and housing, tutoring, health center,
+financial aid and a lot more.
+
+You can also check out the resources on the \href{help.html}{Help} page.
+
+\hypertarget{technology-support}{%
+\subsection{Technology Support}\label{technology-support}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.csuchico.edu/itss/}{IT Support Services} will
+  provide comprehensive technology support, including laptop loans and
+  virtual technology assistance.
+\item
+  The \href{https://www.csuchico.edu/oats/}{Office of Accessible
+  Technology Services} will offer all students online access to a staff
+  member during normal business hours Monday--Friday via email at
+  \href{mailto:oats@csuchico.edu}{\nolinkurl{oats@csuchico.edu}}.
+  Students with questions on inclusive technology or who need assistance
+  setting up technology accommodations are encouraged to reach out.
+\item
+  If you do not have off-campus access to the Internet,
+  \href{https://www.csuchico.edu/coronavirus/internet.shtml}{resources
+  are available}.
+\item
+  The \href{https://www.csuchico.edu/datascience/}{Data Science
+  Initiative} offers year-round training workshops and seminars on
+  data-science related topics including R.
+\item
+  \href{https://www.csuchico.edu/datascience/community-coding.shtml}{Community
+  Coding} (CC): Students, staff, faculty, and the public are invited to
+  join the Community Coding sessions. Bring your computer, coding
+  projects, and your questions to this open working environment. Think
+  of CC as additional office hours where you have access to more
+  teachers than just me.
+\end{itemize}
+
+\hypertarget{americans-with-disabilities-act}{%
+\subsection{Americans with Disabilities
+Act}\label{americans-with-disabilities-act}}
+
+If you need course adaptations or accommodations because of a disability
+or chronic illness, or if you need to make special arrangements in case
+the building must be evacuated, please make an appointment with me as
+soon as possible, or see me during office hours. Please also contact
+Accessibility Resource Center (ARC) as they are the designated
+department responsible for approving and coordinating reasonable
+accommodations and services for students with disabilities. ARC will
+help you understand your rights and responsibilities under the Americans
+with Disabilities Act and provide you further assistance with requesting
+and arranging accommodations. We try our best to ensure equal access to
+materials in accessible formats. Reach out to your me if there is some
+aspect of the course materials that are inaccessible to you.
+
+Accessibility Resource Center 530-898-5959 Student Services Center 170
+\href{mailto:arcdept@csuchico.edu}{\nolinkurl{arcdept@csuchico.edu}}
+\href{https://www.csuchico.edu/arc/}{http://www.csuchico.edu/arc}
+
+\hypertarget{university-policies}{%
+\section{University Policies}\label{university-policies}}
+
+\hypertarget{covid-19}{%
+\subsection{COVID-19}\label{covid-19}}
+
+The CSU requires students to be fully vaccinated against COVID-19 by
+September 30, 2021, unless you have an approved exemption. Currently,
+Chico State is requiring everyone on campus to wear an approved face
+covering in all indoor campus spaces. Accordingly, all students are
+required to wear an appropriate face mask covering the nose and mouth in
+order to participate in this course. Policies and requirements regarding
+COVID-19 are subject to change pursuant to campus, local, state and/or
+federal guidelines.
+
+Please note that dishonesty relating to the vaccination policy and/or
+your failure to comply with any other COVID-19 related safety policy or
+mandate, including the face covering requirement, may result in
+disciplinary action against you through the office of Student Conduct,
+Rights and Responsibilities, which can include suspension or expulsion
+from the California State University system.
+
+Individuals unable to wear a face covering due to a medical condition
+should contact the Accessibility Resource Center by phone at (530)
+898-5959 or by email at
+\href{mailto:arcdept@csuchico.edu}{\nolinkurl{arcdept@csuchico.edu}}.
+
+\hypertarget{adding-and-dropping-the-course}{%
+\subsection{Adding and Dropping the
+course}\label{adding-and-dropping-the-course}}
+
+You are responsible for understanding the policies and procedures about
+add/drops, academic renewal, etc., found in the
+\href{http://www.csuchico.edu/catalog/}{CSU Chico University Catalog}.
+You should be aware of the new deadlines and penalties for adding and
+dropping classes.
+
+The last day to add or drop classes without special permission by the
+instructor is 9/3/21. No adds or drops are allowed after 9/20/21 without
+a serious and compelling reason approved by the instructor, department
+chair, and college dean.
+
+\hypertarget{confidentiality-and-mandatory-reoprting}{%
+\subsection{Confidentiality and Mandatory
+Reoprting}\label{confidentiality-and-mandatory-reoprting}}
+
+As an instructor, one of my responsibilities is to help create a safe
+learning environment on our campus. I also have a mandatory reporting
+responsibility related to my role as a your instructor. I am required to
+share information regarding sexual misconduct with the University.
+Students may speak to someone confidentially by contacting the
+Counseling and Wellness Center (898-6345) or Safe Place (898-3030).
+Information on campus reporting obligations and other Title IX related
+resources are available here: www.csuchico.edu/title-ix.
+
+\hypertarget{academic-integrity}{%
+\subsection{Academic Integrity}\label{academic-integrity}}
+
+Academic integrity is defined as ``a commitment, even in the face of
+adversity, to five fundamental values: honesty, trust, fairness,
+respect, and responsibility''. From these values flow principles of
+behavior that enable academic communities to translate ideals to action.
+Academic integrity is expected and required. No forms of cheating or
+plagiarism will be tolerated. Please see your student handbook at
+\url{https://www.csuchico.edu/scrr/integrity.shtml} if you have
+questions about the meaning of these terms or the consequences of
+violating academic integrity.
+
+\end{document}
